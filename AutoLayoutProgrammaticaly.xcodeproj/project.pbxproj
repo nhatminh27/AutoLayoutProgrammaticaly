@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E44D85F3B8F4509D65BFD1A /* Pods_AutoLayoutProgrammaticaly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C664B9C01E2471E9262AED /* Pods_AutoLayoutProgrammaticaly.framework */; };
 		FA268DDA228903750040E00E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268DD9228903750040E00E /* AppDelegate.swift */; };
-		FA268DDC228903750040E00E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268DDB228903750040E00E /* ViewController.swift */; };
-		FA268DDF228903750040E00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA268DDD228903750040E00E /* Main.storyboard */; };
+		FA268DDC228903750040E00E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268DDB228903750040E00E /* FirstViewController.swift */; };
 		FA268DE1228903770040E00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA268DE0228903770040E00E /* Assets.xcassets */; };
 		FA268DE4228903770040E00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA268DE2228903770040E00E /* LaunchScreen.storyboard */; };
+		FA268E05228967BD0040E00E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268E03228967BD0040E00E /* SecondViewController.swift */; };
+		FA268E06228967BD0040E00E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA268E04228967BD0040E00E /* SecondViewController.xib */; };
+		FA268E08228968EF0040E00E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA268E07228968EF0040E00E /* FirstViewController.xib */; };
+		FA268E10228974B20040E00E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268E0E228974B20040E00E /* ThirdViewController.swift */; };
+		FA268E11228974B20040E00E /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA268E0F228974B20040E00E /* ThirdViewController.xib */; };
+		FA268E18228976210040E00E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268E17228976210040E00E /* InputView.swift */; };
+		FA268E1A228976280040E00E /* InputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA268E19228976280040E00E /* InputView.xib */; };
+		FA268E1E228978440040E00E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268E1D228978440040E00E /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CEB3BF3850BBDD23E9F85CA /* Pods-AutoLayoutProgrammaticaly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutProgrammaticaly.debug.xcconfig"; path = "Target Support Files/Pods-AutoLayoutProgrammaticaly/Pods-AutoLayoutProgrammaticaly.debug.xcconfig"; sourceTree = "<group>"; };
+		515DAA1A871780DB6AD95D69 /* Pods-AutoLayoutProgrammaticaly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutProgrammaticaly.release.xcconfig"; path = "Target Support Files/Pods-AutoLayoutProgrammaticaly/Pods-AutoLayoutProgrammaticaly.release.xcconfig"; sourceTree = "<group>"; };
+		B8C664B9C01E2471E9262AED /* Pods_AutoLayoutProgrammaticaly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayoutProgrammaticaly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA268DD6228903750040E00E /* AutoLayoutProgrammaticaly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutProgrammaticaly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA268DD9228903750040E00E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA268DDB228903750040E00E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA268DDE228903750040E00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA268DDB228903750040E00E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		FA268DE0228903770040E00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA268DE3228903770040E00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA268DE5228903770040E00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA268E03228967BD0040E00E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FA268E04228967BD0040E00E /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		FA268E07228968EF0040E00E /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FA268E0E228974B20040E00E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FA268E0F228974B20040E00E /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		FA268E17228976210040E00E /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		FA268E19228976280040E00E /* InputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
+		FA268E1D228978440040E00E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E44D85F3B8F4509D65BFD1A /* Pods_AutoLayoutProgrammaticaly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F73FAD38C394D1427C26624 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB3BF3850BBDD23E9F85CA /* Pods-AutoLayoutProgrammaticaly.debug.xcconfig */,
+				515DAA1A871780DB6AD95D69 /* Pods-AutoLayoutProgrammaticaly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8A2AF2D006E4F0747C6E880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8C664B9C01E2471E9262AED /* Pods_AutoLayoutProgrammaticaly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA268DCD228903750040E00E = {
 			isa = PBXGroup;
 			children = (
 				FA268DD8228903750040E00E /* AutoLayoutProgrammaticaly */,
 				FA268DD7228903750040E00E /* Products */,
+				5F73FAD38C394D1427C26624 /* Pods */,
+				A8A2AF2D006E4F0747C6E880 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,53 @@
 		FA268DD8228903750040E00E /* AutoLayoutProgrammaticaly */ = {
 			isa = PBXGroup;
 			children = (
+				FA268E1D228978440040E00E /* UIView+Extension.swift */,
+				FA268E16228976120040E00E /* InputView */,
+				FA268E0B228974760040E00E /* Third */,
+				FA268E0A228969400040E00E /* Second */,
+				FA268E092289692B0040E00E /* First */,
 				FA268DD9228903750040E00E /* AppDelegate.swift */,
-				FA268DDB228903750040E00E /* ViewController.swift */,
-				FA268DDD228903750040E00E /* Main.storyboard */,
 				FA268DE0228903770040E00E /* Assets.xcassets */,
 				FA268DE2228903770040E00E /* LaunchScreen.storyboard */,
 				FA268DE5228903770040E00E /* Info.plist */,
 			);
 			path = AutoLayoutProgrammaticaly;
+			sourceTree = "<group>";
+		};
+		FA268E092289692B0040E00E /* First */ = {
+			isa = PBXGroup;
+			children = (
+				FA268DDB228903750040E00E /* FirstViewController.swift */,
+				FA268E07228968EF0040E00E /* FirstViewController.xib */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		FA268E0A228969400040E00E /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				FA268E03228967BD0040E00E /* SecondViewController.swift */,
+				FA268E04228967BD0040E00E /* SecondViewController.xib */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		FA268E0B228974760040E00E /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				FA268E0E228974B20040E00E /* ThirdViewController.swift */,
+				FA268E0F228974B20040E00E /* ThirdViewController.xib */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		FA268E16228976120040E00E /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				FA268E17228976210040E00E /* InputView.swift */,
+				FA268E19228976280040E00E /* InputView.xib */,
+			);
+			path = InputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA268DE8228903770040E00E /* Build configuration list for PBXNativeTarget "AutoLayoutProgrammaticaly" */;
 			buildPhases = (
+				37CFAA0E44DC303DE1A80D6F /* [CP] Check Pods Manifest.lock */,
 				FA268DD2228903750040E00E /* Sources */,
 				FA268DD3228903750040E00E /* Frameworks */,
 				FA268DD4228903750040E00E /* Resources */,
+				E57D82AC65A7414A3F860326 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +201,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA268E06228967BD0040E00E /* SecondViewController.xib in Resources */,
 				FA268DE4228903770040E00E /* LaunchScreen.storyboard in Resources */,
 				FA268DE1228903770040E00E /* Assets.xcassets in Resources */,
-				FA268DDF228903750040E00E /* Main.storyboard in Resources */,
+				FA268E11228974B20040E00E /* ThirdViewController.xib in Resources */,
+				FA268E08228968EF0040E00E /* FirstViewController.xib in Resources */,
+				FA268E1A228976280040E00E /* InputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37CFAA0E44DC303DE1A80D6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoLayoutProgrammaticaly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57D82AC65A7414A3F860326 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoLayoutProgrammaticaly/Pods-AutoLayoutProgrammaticaly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoLayoutProgrammaticaly/Pods-AutoLayoutProgrammaticaly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA268DD2228903750040E00E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA268DDC228903750040E00E /* ViewController.swift in Sources */,
+				FA268E1E228978440040E00E /* UIView+Extension.swift in Sources */,
+				FA268E05228967BD0040E00E /* SecondViewController.swift in Sources */,
+				FA268DDC228903750040E00E /* FirstViewController.swift in Sources */,
+				FA268E18228976210040E00E /* InputView.swift in Sources */,
+				FA268E10228974B20040E00E /* ThirdViewController.swift in Sources */,
 				FA268DDA228903750040E00E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +276,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA268DDD228903750040E00E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA268DDE228903750040E00E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA268DE2228903770040E00E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,10 +405,12 @@
 		};
 		FA268DE9228903770040E00E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEB3BF3850BBDD23E9F85CA /* Pods-AutoLayoutProgrammaticaly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutoLayoutProgrammaticaly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +424,12 @@
 		};
 		FA268DEA228903770040E00E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515DAA1A871780DB6AD95D69 /* Pods-AutoLayoutProgrammaticaly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutoLayoutProgrammaticaly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

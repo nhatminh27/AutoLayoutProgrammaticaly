@@ -15,7 +15,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        /*
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let controller = FirstViewController(nibName: "FirstViewController", bundle: nil)
+        let navigation = UINavigationController(rootViewController: controller)
+        window?.rootViewController = navigation
+        window?.makeKeyAndVisible()
+         */
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let controller1 = FirstViewController(nibName: "FirstViewController", bundle: nil)
+        let nav1 = UINavigationController(rootViewController: controller1)
+        
+        let controller2 = SecondViewController(nibName: "SecondViewController", bundle: nil)
+        let nav2 = UINavigationController(rootViewController: controller2)
+        
+        
+        let tabbarController = UITabBarController()
+        tabbarController.setViewControllers([nav1, nav2], animated: false)
+        
+        let tabFirst = tabbarController.tabBar.items![0]
+        tabFirst.title = "First"
+        
+        let tabSecond = tabbarController.tabBar.items![1]
+        tabSecond.title = "Second"
+        
+        window?.rootViewController = tabbarController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
