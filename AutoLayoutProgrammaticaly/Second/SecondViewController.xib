@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="AutoLayoutProgrammaticaly" customModuleProvider="target">
             <connections>
+                <outlet property="listView" destination="40o-EC-joz" id="hw3-os-2fe"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,17 +21,33 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTu-9X-Pk2">
-                    <rect key="frame" x="25" y="92" width="37" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTu-9X-Pk2">
+                    <rect key="frame" x="0.0" y="44" width="37" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="lfP-Q4-m8j"/>
+                        <constraint firstAttribute="width" constant="37" id="pOv-3L-jxy"/>
+                    </constraints>
                     <state key="normal" title="close"/>
                     <connections>
                         <action selector="closeButtonPressed:" destination="-1" eventType="touchUpInside" id="gat-PD-H3p"/>
                     </connections>
                 </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="40o-EC-joz">
+                    <rect key="frame" x="0.0" y="74" width="414" height="788"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fTu-9X-Pk2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="91h-fh-hbh"/>
+                <constraint firstItem="fTu-9X-Pk2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="AJV-9T-wdI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="40o-EC-joz" secondAttribute="bottom" id="GIu-Db-twb"/>
+                <constraint firstItem="40o-EC-joz" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="f24-1w-3Bt"/>
+                <constraint firstItem="40o-EC-joz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="o8r-mv-jbW"/>
+                <constraint firstItem="40o-EC-joz" firstAttribute="top" secondItem="fTu-9X-Pk2" secondAttribute="bottom" id="xa8-Hf-q0M"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-430.43478260869568" y="55.580357142857139"/>
         </view>
     </objects>
 </document>

@@ -20,6 +20,8 @@
 		FA268E18228976210040E00E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268E17228976210040E00E /* InputView.swift */; };
 		FA268E1A228976280040E00E /* InputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA268E19228976280040E00E /* InputView.xib */; };
 		FA268E1E228978440040E00E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA268E1D228978440040E00E /* UIView+Extension.swift */; };
+		FA26FA18228A51490029F04F /* SecondViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26FA16228A51490029F04F /* SecondViewCell.swift */; };
+		FA26FA19228A51490029F04F /* SecondViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26FA17228A51490029F04F /* SecondViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		FA268E17228976210040E00E /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		FA268E19228976280040E00E /* InputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
 		FA268E1D228978440040E00E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FA26FA16228A51490029F04F /* SecondViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewCell.swift; sourceTree = "<group>"; };
+		FA26FA17228A51490029F04F /* SecondViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		FA268E0A228969400040E00E /* Second */ = {
 			isa = PBXGroup;
 			children = (
+				FA26FA15228A50C00029F04F /* Cells */,
 				FA268E03228967BD0040E00E /* SecondViewController.swift */,
 				FA268E04228967BD0040E00E /* SecondViewController.xib */,
 			);
@@ -139,6 +144,15 @@
 				FA268E19228976280040E00E /* InputView.xib */,
 			);
 			path = InputView;
+			sourceTree = "<group>";
+		};
+		FA26FA15228A50C00029F04F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA26FA16228A51490029F04F /* SecondViewCell.swift */,
+				FA26FA17228A51490029F04F /* SecondViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA26FA19228A51490029F04F /* SecondViewCell.xib in Resources */,
 				FA268E06228967BD0040E00E /* SecondViewController.xib in Resources */,
 				FA268DE4228903770040E00E /* LaunchScreen.storyboard in Resources */,
 				FA268DE1228903770040E00E /* Assets.xcassets in Resources */,
@@ -268,6 +283,7 @@
 				FA268E05228967BD0040E00E /* SecondViewController.swift in Sources */,
 				FA268DDC228903750040E00E /* FirstViewController.swift in Sources */,
 				FA268E18228976210040E00E /* InputView.swift in Sources */,
+				FA26FA18228A51490029F04F /* SecondViewCell.swift in Sources */,
 				FA268E10228974B20040E00E /* ThirdViewController.swift in Sources */,
 				FA268DDA228903750040E00E /* AppDelegate.swift in Sources */,
 			);
